@@ -1,0 +1,33 @@
+#calcule o aumento de 15% para um salario de r$ 7500
+salario = 750
+aumento = 15
+print(salario + (salario * aumento / 100))
+
+#faz a soma de duas variáveis
+a = 2 
+b = 3
+print(a + b )
+
+#converta as expressões matemática para que possam ser calculadas
+print(10 + 20*30)
+print(42/30)
+print(94+2*6-1)
+print(10+8*10-4-1)
+print(((1500 +((100-9)/10))*9))**3)
+
+#imprimar sua mensagem
+a = isabelle
+print("isabelle")
+
+#faça um programa que converta metros para centímetros
+metros = int(input('Informe o valor em metros: '))
+print ('O valor em centimetros é :', metros * 100)
+
+#programa em python que leia valor inteiro e mostre a tabuada de 1 a 10 do valor lido
+int(input('leia o valor:'))
+numerador = int(input("Qual o número que quer que se faça a tabuada: "))
+print("\n")
+for i in range(1,11):
+    r = i*numerador
+    print("{} x {} = {}".format(numerador,i,r))
+    i = i+1
