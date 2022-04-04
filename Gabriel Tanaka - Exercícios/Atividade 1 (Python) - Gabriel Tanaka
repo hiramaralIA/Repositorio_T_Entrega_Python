@@ -1,0 +1,173 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "9ac557c3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "o resultado é :\n",
+      "610\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"o resultado é :\")\n",
+    "print(10 + 20 * 30)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "id": "b3a83619",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "o resultado é :\n",
+      "1.25\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"o resultado é :\")\n",
+    "print(40/32)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "53c7b8d8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "o resultado é :\n",
+      "563\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"o resultado é :\")\n",
+    "print((92 + 2) * 6 - 1 )"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "a8897a32",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "o resultado é :\n",
+      "107\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"o resultado é :\")\n",
+    "print((10+8)*(10-4)- 1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "76c00a39",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "5\n"
+     ]
+    }
+   ],
+   "source": [
+    "a = 2 #(1)\n",
+    "b = 3 #(2)\n",
+    "print (a + b) #(3)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "id": "22f53889",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Tanaka tem 18 anos e R$60.00 no bolso.\n"
+     ]
+    }
+   ],
+   "source": [
+    "nome = \"Tanaka\"\n",
+    "idade = 18\n",
+    "cash = 60    \n",
+    "print(\"%s tem %d anos e R$%5.2f no bolso.\" % (nome, idade, cash))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "e2951cf3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Gabriel Tanaka Harada Vieira tem 18nos e R$60.00 no bolso.\n",
+      "Gabriel Tanaka Harada Vieira tem 18 anos e R$60.000000 no bolso.\n",
+      "Gabriel Tanaka Harada Vieira em 018 anos e R$60.00 no bolso.\n",
+      "Gabriel Tanaka Harada Vieira tem 18  anos e R$60.00 no bolso.\n"
+     ]
+    }
+   ],
+   "source": [
+    "nome = \"Gabriel Tanaka Harada Vieira\"\n",
+    "idade = 18\n",
+    "cash = 60    \n",
+    "print(\"%s tem % anos e R$%5.2f no bolso.\" % (nome, idade, cash))\n",
+    "print(\"%12s tem %d anos e R$%f no bolso.\" % (nome, idade, cash))\n",
+    "print(\"%12s em %03d anos e R$%5.2f no bolso.\" % (nome, idade, cash))\n",
+    "print(\"%-12s tem %-3d anos e R$%5.2f no bolso.\" % (nome, idade, cash))"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.7"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
