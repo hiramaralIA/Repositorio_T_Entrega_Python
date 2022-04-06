@@ -1,5 +1,0 @@
-name = 'Octavio' 
-years = 18
-cash = 5000
-print("%s tem %d anos e R$%3.0f no bolso." %(name,years,cash))
-      Octavio tem 18 anos e R$5000 no bolso.
