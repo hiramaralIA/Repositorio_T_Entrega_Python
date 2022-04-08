@@ -1,0 +1,156 @@
+
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[1]:
+
+
+print("Olá mundo!")
+
+
+# In[2]:
+
+
+#soma 
+7+3
+
+
+# In[3]:
+
+
+#adição e subtração
+7-4+5
+
+
+# In[4]:
+
+
+#multiplicação
+3*7
+
+
+# In[5]:
+
+
+#divisão
+30/6
+
+
+# In[6]:
+
+
+#expoente
+3**3
+
+
+# In[7]:
+
+
+#resto da divisão inteira
+21%5
+
+
+# In[8]:
+
+
+16%5
+
+
+# In[9]:
+
+
+10+20*30
+
+
+# 
+
+# In[10]:
+
+
+4**2/30
+
+
+# In[11]:
+
+
+(94+2)*6-1
+
+
+# In[12]:
+
+
+((10+8)*(10-4))-1
+
+
+# In[22]:
+
+
+(1500+((100-9)/10)*9)**3
+
+
+# In[23]:
+
+
+10%3*10**2+1-10*4/2
+
+
+# In[25]:
+
+
+salario = 1500 #(1)
+aumento = 5 #(2)
+print(salario + (salario * aumento/100)) #(3)
+
+
+# In[26]:
+
+
+print("Marina Pinheiro")
+
+
+# In[27]:
+
+
+a= 3 #(1)
+b= 5 #(2)
+print("O resultado a seguir da expresão 2a x 3b, onde a vale 3 e b vale 5 é: ") #(3)
+(2*a) * (3*b) #(4)
+
+
+
+# In[28]:
+
+
+salario = 750 #(1)
+aumento = 15 #(2)
+print(salario + (salario * aumento/100)) #(3)
+
+
+# In[30]:
+
+
+a= 7
+b= 7
+c=5.5
+
+print("A soma dos três valores é: ") 
+
+a+b+c
+
+
+# In[34]:
+
+
+metros = 2
+cm = 100
+
+print("O valor do valor em metros para cm é: ")
+
+metros * cm 
+
+
+# In[ ]:
+
+
+
+
