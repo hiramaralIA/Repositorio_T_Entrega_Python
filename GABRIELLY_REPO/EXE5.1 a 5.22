@@ -1,0 +1,182 @@
+EXERCICIO 5.1
+#soma
+10+20*30
+
+
+#exponenciação e divisão
+4**2/30
+
+
+#soma e subtração e divisão
+(94+2)*6-1
+
+
+#soma e multiplicação e subtração
+((10+8)*(10-4))-1
+
+#soma e divisão e subtração e exponenciação
+((1500+(100-9/10)*9)**3)
+
+  EXERCICIO 5.2
+10%3*10**2+1-10*4/2
+
+EXERCICO 5.3
+
+print("gabrielly")
+
+EXERCICIO 5.4
+
+a=3 #(1)
+b=5 #(2)
+print(2*a*3*b)
+
+EXERCICIO 5.5
+
+a = 2566 #(1)
+b = 254 #(2)
+c = 543 #(3)
+print(a+b+c)
+
+EXERCICIO 5.6
+
+salario=750#(1)
+aumento= 15#(2)
+print(salario+(salario * aumento / 100))#3
+
+EXERCICIO 5.7
+
+metros = float (input(' ensira um valor em Metros: '))
+centimetros = metros * 100;
+print (centimetros, ' cm')
+
+EXERCICIO 5.8
+
+numero = int(input('Digite um numero: '))
+print('{} x {} = {}'.format(numero, 1, numero*1))
+print('{} x {} = {}'.format(numero, 2, numero*2))
+print('{} x {} = {}'.format(numero, 3,numero*3))
+print('{} x {} = {}'.format(numero, 4, numero*4))
+print('{} x {} = {}'.format(numero, 5,numero*5))
+print('{} x {} = {}'.format(numero, 6, numero*6))
+print('{} x {} = {}'.format(numero, 7, numero*7))
+print('{} x {} = {}'.format(numero, 8, numero*8))
+print('{} x {} = {}'.format(numero, 9, numero*9))
+print('{} x {} = {}'.format(numero, 10, numero*10))
+
+EXERCICIO 5.9
+
+nota1 = float (input(' insira a primeira nota do aluno: '))
+nota2 = float (input(' insira a segunda nota do aluno: '))
+media = (nota1+nota2) / 2
+print(' a media do aluno é igual a {}'.format(media, nota1, nota2))
+ 
+  EXERCICIO 5.10
+ 
+salario = float (input(' insira o salario do funcionario: '))
+novo = salario + (salario * 15 / 100)
+print(' o salario do funcionario reajustado  em 15% é igual a R${:.2f}'.format(salario, novo))
+novo = salario + (salario * 10 /100)
+print(' o salario do funcionario reajustado em 10% é igual a R${:.2f}'.format(salario, novo))
+novo = salario + (salario * 5 / 100)
+print(' o salario do funcionario reajustado em 5% é igual a R${:.2f}'.format(salario, novo))
+
+EXERCICIO 5.11
+
+N1 = int (input(' insira um numero: '))
+N2 = int (input(' insira outro numero: '))
+soma = N1 + N2
+print(' a soma dos numeros é igual a {}'.format(soma, N1, N2))
+
+EXERCICIO 5.12
+
+num1 = float (input(' insira um numero: '))
+num2 = float (input(' insira outro numero: '))
+soma = num1 + num2
+print('a soma dos numeros é igual a {}'.format(soma,num1,num2))
+sub = num1 - num2
+print(' a diferença dos numeros é igual a {}'.format(sub, num1, num2))
+mult = num1 * num2
+print(' a multiplicalção dos numeros é igual a {}'.format(mult, num1, num2))
+div = num1 / num2
+print(' a divisão dos numeros é igual a {}'.format(div, num1, num2))
+
+EXERCICIO 5.13
+
+distancia = float (input(' insira a distancia total percorrida: '))
+total_comb = float (input(' insira o total de combustivel gasto: '))
+consumo_med = ( distancia / total_comb )
+print(' o consumo médio do combustivel é igual a {:.3f} km/l'.format(consumo_med, distancia, total_comb))
+
+EXERCICIO 5.14
+
+nome =  str (input(' insira o nome do vendedor: '))
+salario_fx = float (input(' insira o salario fixo do vendedor: '))
+total_ven = float (input(' insira o total de vendas desse vendedor'))
+salario_final = (salario_fx * total_ven * 15) / 100
+print(' o funcionario {}'.format(nome)) 
+print(' ganha fixamente R${:.3f}'.format(salario_fx)) 
+print(' com a sua comissão de 15% inserida ele passa a ganhar R${}'.format(salario_final))
+
+EXERCICIO 5.15
+
+nome = str (input(' insira o nome do aluno: '))
+nota1 = float (input(' insira a primeira nota: '))
+nota2 = float (input(' insira a segunda nota: '))
+nota3 = float (input(' insira a terceira nota: '))
+media_final = (nota1 + nota2 + nota3) / 3
+print(' o aluno {}, obteve media final igual a {:.2f} '.format(nome, media_final))
+
+EXERCICIO 5.16
+
+var_X = int (input(' Digite um numero inteiro para X : '))
+var_Y = int (input(' Digite outro numero inteiro para Y : '))
+print(' a  variavel X agora é {}'.format(var_Y))
+print(' a variavel y agora é {}'.format(var_X))
+
+EXERCICIO 5.17
+
+Celsius = float (input(' digite a temperatura em Celsius: '))
+Fahre = ( 9 * Celsius + 160) / 5
+print(' a temperatura em Fahrenheit é igual a {:.2f}'.format(Fahre))
+
+EXERCICIO 5.18
+
+cota_dolar = float (input(' qual é a cotação atual do dolar? '))
+dolar_dispo = float (input(' quantos dolares você possui atualmente? '))
+reais = cota_dolar * dolar_dispo
+print(' você possui R${:.2f} '.format(reais))
+
+EXERCICIO 5.19
+
+
+valor_depo = float (input(' insira o valor depositado?'))
+rendi = 0.70 * 100
+v_f = valor_depo * rendi
+print(' o valor depositado rendeu R${} apos um mes'.format(rendi, valor_depo))
+
+EXERCICIO 5.20
+
+valor_compra = float (input(' qual é o valor do produto? '))
+pre_1 = valor_compra 
+pre_2 = valor_compra / 2
+pre_3 = valor_compra / 3
+pre_4 = valor_compra / 4
+pre_5 = valor_compra / 5
+print(' o valor das prestações em 1X é igual a {:.2f}'.format(pre_1))
+print(' o valor das prestações em 2x é igual a {:.2f}'.format(pre_2))
+print(' o valor das prestações em 3x é igual a {:.2f}'.format(pre_3))
+print(' o valor das prestações em 4x é igual a {:.2f}'.format(pre_4))
+print(' o valor das prestações em 5x é igual a {:.2f}'.format(pre_5))
+
+EXERCICIO 5.21
+
+valor_prod = float (input(' digite o preço de custo do produto: '))
+perce = float (input(' digite o acréscimo percentual: '))
+valor_venda = (valor_prod * perce) / 100
+print(' o valor de venda é igual a {:.2f}'.format(valor_venda))                                                                  
+
+ EXERCICIO 5.22
+custo_fab = float (input(' digite o custo de fabrica: '))
+var_1 = (custo_fab * 45) / 100
+var_2 = (var_1 * 28) / 100
+print(' o custo do consumidor é igual a: {}'.format(var_2))
