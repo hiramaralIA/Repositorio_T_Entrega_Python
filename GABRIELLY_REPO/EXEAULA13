@@ -1,0 +1,38 @@
+=============================EXERCICO BONUS - AULA 13 =====================================================================================================================
+meta = float(input(" insira a meta de vendas para esse mês: "))
+qua_ven = float(input(" insira a quantidade de Iphones vendidos esse mês: "))
+if (qua_ven > meta):
+  print(" OBAAA!! parabens! batemos a meta esse mês, vendemos {} Iphones".format(qua_ven))
+else:
+  print(" Infelizmente não batemos a meta de vendas esse mês! nossa meta era {} vendas".format(meta))
+===============================EXERCICIO 1 - AULA 13 =================================================================================================================
+meta = 50000
+vendas = 65300
+if vendas > meta:
+  print(" batemos a meta, vendemos {} Iphones".format(vendas))
+=================================EXERCICIO 2 - AULA 13 ==============================================================================================================
+meta = 50000
+vendas = 45300
+if vendas > meta:
+  print(" batemos a meta, vendemos {} Iphones".format(vendas))
+else:
+  print(" infelizmente não batemos a meta, vendemos {} Iphones".format(vendas))
+ ================================EXERCICIO 3 - AULA 13 ===============================================================================================================
+ retorno = float (input(" insira quanto de retorno seu fundo entregou: "))
+if (5 > retorno): 
+  print(" não sera cobrado taxa em seu investimento")
+elif (5 >= retorno ):
+  print(" sera cobrado uma taxa de 2% em seu investimento")
+else:
+  print(" sera cobrado uma taxa de 4% em seu investimento")
+  ==============================EXERCICIO 4 - AULA 13 =================================================================================================================
+  meta = 20000
+qua_ven = 30000
+if qua_ven < meta:
+  print("Infelizmente você não tem direito a bônus :(")
+elif qua_ven > (meta*2):
+   bonus = 0.07 * qua_ven
+   print(" PARABEEENS!!, você ganhou {} de bonus".format(bonus))
+else:
+  bonus1 = 0.03*qua_ven
+  print("PARABEEENS!!, você ganhou {} de bonus".format(bonus1))
